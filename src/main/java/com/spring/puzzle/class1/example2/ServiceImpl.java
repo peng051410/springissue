@@ -2,14 +2,12 @@ package com.spring.puzzle.class1.example2;
 
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 @Service
 public class ServiceImpl {
 
     private String serviceName;
 
-    public ServiceImpl(String serviceName){
+    public ServiceImpl(String serviceName) {
         this.serviceName = serviceName;
     }
 
